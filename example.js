@@ -11,5 +11,8 @@ myFun.call({a: 3 , b:4}, 5 ,7);
 myFun.apply({a: 3 , b:4}, [5,7]);
 
 // bind method
+// let bound = myFun.bind({a: 3 , b:4});
+// bound(5,7);
+// bind method
 let bound = myFun.bind({a: 3 , b:4});
 bound(5,7);
