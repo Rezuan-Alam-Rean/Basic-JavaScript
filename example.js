@@ -1,6 +1,6 @@
 myFun = function(c,d){
     console.log("Hello World");
-    // console.log(this);
+    console.log(this);
     console.log(this.a + this.b + c + d);
 }
 // myFun();
