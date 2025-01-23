@@ -7,3 +7,9 @@ for (let index = 0; index < 30; index++) {
     
     
 }
+
+while (true) {
+    
+    let index = 0; index < 30; index++
+    console.log(index);
+}
